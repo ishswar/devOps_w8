@@ -4,7 +4,9 @@
    
 In this project we have two micro services - FrontEnd and BackEnd 
 
-### BackEnd : It is Nameko based micro services that acts as file server - given a file name it can read content .
+### BackEnd :
+
+    It is Nameko based micro services that acts as file server - given a file name it can read content .
     Client interact with this service via RabbitMQ - files are transfered over RabbitMQ 
 
     RabbitMQ is also running along with micro service in Docker Container 
@@ -17,7 +19,9 @@ In this project we have two micro services - FrontEnd and BackEnd
 
       File server only knows about files a.txt,b.txt,c.txt and e.txt anything else it will send you ~FILE NOT FOUND text as file content .
 
-### FrontEnd : It is also Nameko based micro service that is basic HTTP Server - given Query string that has file name it will try to get file from back end file server over RabbitMQ    
+### FrontEnd :
+   
+    It is also Nameko based micro service that is basic HTTP Server - given Query string that has file name it will try to get file from back end file server over RabbitMQ    
 
     Same as above this Front End is also running in Docker container 
 
@@ -33,7 +37,7 @@ In this project we have two micro services - FrontEnd and BackEnd
 
 
 ## Overall schematic view of How Micro Services are running 
- 
+
 
 ## [Sample output] command line client running on Macbook (outside vagrant or docker)
    All the text content is Lorem Ipsum text  
