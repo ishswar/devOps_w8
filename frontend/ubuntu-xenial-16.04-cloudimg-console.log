@@ -719,4 +719,162 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRDZ2lks6aX8b6Jy8WDrGWe5sPewCMNLx4ryQbVkRP
 
 Ubuntu 16.04.6 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login: [[0;32m  OK  [0m] Closed Load/Save RF Kill Switch Status /dev/rfkill Watch.
+         Stopping Authenticate and Authorize Users to Run Privileged Tasks...
+         Stopping User Manager for UID 1000...
+[[0;32m  OK  [0m] Stopped target Graphical Interface.
+         Stopping Accounts Service...
+[[0;32m  OK  [0m] Stopped target Cloud-init target.
+[[0;32m  OK  [0m] Stopped Execute cloud user/final scripts.
+[[0;32m  OK  [0m] Stopped Apply the settings specified in cloud-config.
+[[0;32m  OK  [0m] Stopped target Multi-User System.
+         Stopping LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+         Stopping System Logging Service...
+         Stopping Unattended Upgrades Shutdown...
+         Stopping FUSE filesystem for LXC...
+         Stopping OpenBSD Secure Shell server...
+         Stopping LSB: Set up cgroupfs mounts....
+         Stopping LXD - container startup/shutdown...
+         Stopping Deferred execution scheduler...
+[[0;32m  OK  [0m] Stopped target Login Prompts.
+         Stopping Getty on tty1...
+         Stopping Serial Getty on ttyS0...
+         Stopping vboxadd-service.service...
+         Stopping D-Bus System Message Bus...
+         Stopping LSB: daemon to balance interrupts for SMP systems...
+         Stopping LSB: automatic crash report generation...
+         Stopping Docker Application Container Engine...
+         Stopping LSB: Record successful boot for GRUB...
+         Stopping ACPI event daemon...
+         Stopping Session 13 of user vagrant.
+[[0;32m  OK  [0m] Stopped target Cloud-config availability.
+         Stopping LSB: MD monitoring daemon...
+         Stopping Regular background program processing daemon...
+[[0;32m  OK  [0m] Stopped target Timers.
+[[0;32m  OK  [0m] Stopped Daily Cleanup of Temporary Directories.
+[[0;32m  OK  [0m] Stopped Daily apt upgrade and clean activities.
+[[0;32m  OK  [0m] Stopped Daily apt download activities.
+[[0;32m  OK  [0m] Stopped target System Time Synchronized.
+[[0;32m  OK  [0m] Stopped Wait until snapd is fully seeded.
+[[0;32m  OK  [0m] Unmounted /var/lib/lxcfs.
+[[0;32m  OK  [0m] Stopped System Logging Service.
+[[0;32m  OK  [0m] Stopped Regular background program processing daemon.
+[[0;32m  OK  [0m] Stopped Deferred execution scheduler.
+[[0;32m  OK  [0m] Stopped Accounts Service.
+[[0;32m  OK  [0m] Stopped Unattended Upgrades Shutdown.
+[[0;32m  OK  [0m] Stopped ACPI event daemon.
+[[0;32m  OK  [0m] Stopped Authenticate and Authorize Users to Run Privileged Tasks.
+[[0;32m  OK  [0m] Stopped Getty on tty1.
+[[0;32m  OK  [0m] Stopped Serial Getty on ttyS0.
+[[0;32m  OK  [0m] Stopped OpenBSD Secure Shell server.
+[[0;32m  OK  [0m] Stopped User Manager for UID 1000.
+[[0;32m  OK  [0m] Stopped LSB: Set up cgroupfs mounts..
+[[0;32m  OK  [0m] Stopped vboxadd-service.service.
+[[0;32m  OK  [0m] Stopped D-Bus System Message Bus.
+[[0;32m  OK  [0m] Stopped Session 13 of user vagrant.
+[[0;32m  OK  [0m] Stopped FUSE filesystem for LXC.
+[[0;32m  OK  [0m] Stopped LXD - container startup/shutdown.
+[[0;32m  OK  [0m] Stopped LSB: Set the CPU Frequency Scaling governor to "ondemand".
+[[0;32m  OK  [0m] Stopped LSB: automatic crash report generation.
+[[0;32m  OK  [0m] Stopped LSB: daemon to balance interrupts for SMP systems.
+[[0;32m  OK  [0m] Stopped LSB: MD monitoring daemon.
+[[0;32m  OK  [0m] Stopped LSB: Record successful boot for GRUB.
+[[0;32m  OK  [0m] Stopped User Manager for UID 1000.
+         Stopping vboxadd.service...
+[[0;32m  OK  [0m] Removed slice User Slice of vagrant.
+[[0;32m  OK  [0m] Removed slice system-serial\x2dgetty.slice.
+[[0;32m  OK  [0m] Stopped /etc/rc.local Compatibility.
+[[0;32m  OK  [0m] Removed slice system-getty.slice.
+         Stopping Permit User Sessions...
+         Stopping Login Service...
+[[0;32m  OK  [0m] Stopped Permit User Sessions.
+[[0;32m  OK  [0m] Stopped target Remote File Systems.
+[[0;32m  OK  [0m] Stopped target Remote File Systems (Pre).
+         Stopping Login to default iSCSI targets...
+[[0;32m  OK  [0m] Unmounted /vagrant.
+[[0;32m  OK  [0m] Stopped vboxadd.service.
+[[0;32m  OK  [0m] Stopped Login to default iSCSI targets.
+         Stopping iSCSI initiator daemon (iscsid)...
+[[0;32m  OK  [0m] Stopped iSCSI initiator daemon (iscsid).
+[[0;32m  OK  [0m] Stopped Login Service.
+[[0;32m  OK  [0m] Stopped target User and Group Name Lookups.
+[[0;32m  OK  [0m] Unmounted /run/docker/netns/c8f4ade19282.
+[[0;32m  OK  [0m] Unmounted /var/lib/docker/container...33192dd3aedd46677fe5/mounts/shm.
+[[0;32m  OK  [0m] Unmounted /var/lib/docker/overlay2/...361837cc5c608ecafa183084/merged.
+[[0;32m  OK  [0m] Stopped Docker Application Container Engine.
+         Stopping containerd container runtime...
+[[0;32m  OK  [0m] Stopped target Network is Online.
+[[0;32m  OK  [0m] Stopped containerd container runtime.
+[[0;32m  OK  [0m] Stopped target Basic System.
+[[0;32m  OK  [0m] Stopped target Paths.
+[[0;32m  OK  [0m] Stopped Dispatch Password Requests to Console Directory Watch.
+[[0;32m  OK  [0m] Stopped Forward Password Requests to Wall Directory Watch.
+[[0;32m  OK  [0m] Stopped ACPI Events Check.
+[[0;32m  OK  [0m] Stopped target Sockets.
+[[0;32m  OK  [0m] Closed Syslog Socket.
+[[0;32m  OK  [0m] Closed Docker Socket for the API.
+[[0;32m  OK  [0m] Closed LXD - unix socket.
+[[0;32m  OK  [0m] Closed D-Bus System Message Bus Socket.
+[[0;32m  OK  [0m] Closed ACPID Listen Socket.
+[[0;32m  OK  [0m] Closed UUID daemon activation socket.
+[[0;32m  OK  [0m] Closed Socket activation for snappy daemon.
+[[0;32m  OK  [0m] Stopped target Slices.
+[[0;32m  OK  [0m] Removed slice User and Session Slice.
+[[0;32m  OK  [0m] Stopped target Network.
+[[0;32m  OK  [0m] Stopped target System Initialization.
+[[0;32m  OK  [0m] Stopped Create Volatile Files and Directories.
+[[0;32m  OK  [0m] Stopped target Encrypted Volumes.
+[[0;32m  OK  [0m] Stopped Commit a transient machine-id on disk.
+[[0;32m  OK  [0m] Stopped target Swap.
+[[0;32m  OK  [0m] Stopped Initial cloud-init job (metadata service crawler).
+         Stopping Raise network interfaces...
+         Stopping Load/Save Random Seed...
+[[0;32m  OK  [0m] Stopped Load/Save Random Seed.
+[[0;32m  OK  [0m] Stopped Raise network interfaces.
+[[0;32m  OK  [0m] Stopped Apply Kernel Variables.
+[[0;32m  OK  [0m] Stopped Load Kernel Modules.
+[[0;32m  OK  [0m] Stopped target Network (Pre).
+[[0;32m  OK  [0m] Stopped Initial cloud-init job (pre-networking).
+[[0;32m  OK  [0m] Stopped target Local File Systems.
+         Unmounting /run/user/1000...
+[[0;32m  OK  [0m] Unmounted /run/user/1000.
+[[0;32m  OK  [0m] Reached target Unmount All Filesystems.
+[[0;32m  OK  [0m] Stopped target Local File Systems (Pre).
+[[0;32m  OK  [0m] Stopped Create Static Device Nodes in /dev.
+         Stopping Monitoring of LVM2 mirrors... dmeventd or progress polling...
+[[0;32m  OK  [0m] Stopped Remount Root and Kernel File Systems.
+[[0;32m  OK  [0m] Reached target Shutdown.
+[ 6733.615709] general protection fault: 0000 [#1] SMP 
+[ 6733.616669] Modules linked in: xt_nat xt_tcpudp veth ipt_MASQUERADE nf_nat_masquerade_ipv4 nf_conntrack_netlink nfnetlink xfrm_user xfrm_algo iptable_nat nf_conntrack_ipv4 nf_defrag_ipv4 nf_nat_ipv4 xt_addrtype iptable_filter ip_tables xt_conntrack x_tables nf_nat nf_conntrack br_netfilter bridge stp llc aufs overlay vboxsf(OE) vboxguest(OE) vboxvideo(OE) drm_kms_helper ttm drm syscopyarea sysfillrect sysimgblt fb_sys_fops isofs crct10dif_pclmul crc32_pclmul ghash_clmulni_intel input_leds serio_raw video ib_iser rdma_cm iw_cm ib_cm ib_sa ib_mad ib_core ib_addr iscsi_tcp libiscsi_tcp libiscsi scsi_transport_iscsi autofs4 btrfs raid10 raid456 async_raid6_recov async_memcpy async_pq async_xor async_tx xor raid6_pq libcrc32c raid1 raid0 multipath linear aesni_intel aes_x86_64 glue_helper lrw gf128mul ablk_helper cryptd mptspi scsi_transport_spi psmouse mptscsih mptbase e1000 [last unloaded: vboxguest]
+[ 6733.629982] CPU: 1 PID: 1 Comm: systemd-shutdow Tainted: G           OE   4.4.0-146-generic #172-Ubuntu
+[ 6733.631281] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[ 6733.632446] task: ffff88003d808000 ti: ffff88003d804000 task.ti: ffff88003d804000
+[ 6733.633511] RIP: 0010:[<ffffffff8124d20c>]  [<ffffffff8124d20c>] wakeup_flusher_threads+0xac/0xf0
+[ 6733.634857] RSP: 0018:ffff88003d807f00  EFLAGS: 00010293
+[ 6733.635657] RAX: 00058d46cc8090d3 RBX: ffff88003ad510b0 RCX: 0000000000000000
+[ 6733.636649] RDX: 2e67726f00000020 RSI: 0000000000006628 RDI: 7fffffffffffffff
+[ 6733.637648] RBP: ffff88003d807f28 R08: ffff88003fd17300 R09: 0000000000000001
+[ 6733.638678] R10: 0000000000046800 R11: ffff88003c2d6800 R12: ffff88003ad51380
+[ 6733.639692] R13: ffff88003ad51060 R14: 0000000000006628 R15: 0000000000000002
+[ 6733.640785] FS:  00007fb9ee02f840(0000) GS:ffff88003fd00000(0000) knlGS:0000000000000000
+[ 6733.641934] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 6733.642699] CR2: 00007fb9ed44e6b0 CR3: 000000003dbcc000 CR4: 0000000000060670
+[ 6733.643694] DR0: 0000000000000000 DR1: 0000000000000000 DR2: 0000000000000000
+[ 6733.644739] DR3: 0000000000000000 DR6: 00000000fffe0ff0 DR7: 0000000000000400
+[ 6733.645723] Stack:
+[ 6733.646046]  0000000000000000 00007ffe9fccc570 00007ffe9fccc860 0000000000000000
+[ 6733.647265]  0000000000000000 ffff88003d807f48 ffffffff812512e6 0000000100000000
+[ 6733.648365]  58f5bb90eda99a71 0000000000000007 ffffffff81862a1b 0000557978cf3060
+[ 6733.649504] Call Trace:
+[ 6733.649881]  [<ffffffff812512e6>] sys_sync+0x36/0xb0
+[ 6733.650978]  [<ffffffff81862a1b>] entry_SYSCALL_64_fastpath+0x22/0xcb
+[ 6733.651860] Code: 83 08 02 00 00 49 39 c4 48 8d 98 f8 fd ff ff 74 2a 48 8b 13 48 bf ff ff ff ff ff ff ff 7f 48 8b 83 28 01 00 00 49 39 fe 4c 89 f6 <48> 8b 4a 48 74 c0 48 85 c9 75 a3 4c 89 f6 eb b6 4d 8b 6d 00 49 
+[ 6733.655717] RIP  [<ffffffff8124d20c>] wakeup_flusher_threads+0xac/0xf0
+[ 6733.657086]  RSP <ffff88003d807f00>
+[ 6733.658300] fbcon_switch: detected unhandled fb_set_par error, error code -16
+[ 6733.660326] ---[ end trace d550744bf7b97ec5 ]---
+[ 6733.662551] Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b
+[ 6733.662551] 
+[ 6733.664713] Kernel Offset: disabled
+[ 6733.665587] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x0000000b
+[ 6733.665587] 
