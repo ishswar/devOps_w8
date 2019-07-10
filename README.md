@@ -38,6 +38,7 @@ In this project we have two micro services - FrontEnd and BackEnd
 
 ## Overall schematic view of How Micro Services are running 
 
+![alt text](Vagrant-DevOps_withDocker.png)
 
 ## [Sample output] command line client running on Macbook (outside vagrant or docker)
    All the text content is Lorem Ipsum text  
