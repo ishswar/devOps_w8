@@ -4,11 +4,14 @@ BACKEND_IP=$1
 
 # Stop and remove existing docker entries
 
-echo *** Stopping ws process
+echo *** Stopping ws container
 docker stop ws > /dev/null
 
-echo *** Removig ws process
+echo *** Removig ws container
 docker rm ws > /dev/null
+
+echo *** Removig ws docker image
+docker rmi ws > /dev/null
 
 
 export BACKEND_IP=$1
@@ -29,7 +32,7 @@ docker build . -t ws
 
 # Start docker ws service in background as ws
 echo *** Run ws client and map to port 80 on Vagrant host
-docker run -d --name ws -p 80:8000 -e BACKEND_IP=${BACKEND_IP} -e RABBIT_PORT=${RABBIT_PORT} ws
+docker run -dit --restart unless-stopped --name ws -p 80:8000 -e BACKEND_IP=${BACKEND_IP} -e RABBIT_PORT=${RABBIT_PORT} ws
 
 echo *** Will wait for container to initalized and then check on its logs 
 sleep 20

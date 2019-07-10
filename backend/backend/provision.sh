@@ -96,8 +96,3 @@ rm -rf backendoutput.log || echon "No need to cleanup backendoutput"
 
 service rabbitmq-server restart || echon "RabbitMQ is still not up"
 rabbitmqctl status || echon "RabbitMQ is still not up"
-
-# Start Backend Micro service 
-#nameko run --config config.yml BackEnd > backendoutput.log 2>&1 &
-
-#echo "####### About to start BackEnd File service"

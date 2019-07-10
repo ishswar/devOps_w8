@@ -13,7 +13,6 @@ RUN ["chmod", "+x", "./startup.sh"]
 # Install psutils
 RUN ./provision.sh
 
+EXPOSE 7600/tcp
+
 CMD bash /app/startup.sh
-
-#docker run -it --network host --name backend --rm -p 7600:7600 backend service rabbitmq-server restart && /bin/bash
-
